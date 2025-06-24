@@ -33,13 +33,24 @@ I've designed and implemented an automation test pipeline for testing robots in 
 
 ### 💻 Work Experience
 
-Currently, I lead software testing initiatives for cutting-edge food automation robots at Miso Robotics, where I:
-- Work on advanced system integration tests for robotic features with expertise in motion planning, localization, and motion control systems
-- Create Automated Python Tests for rigorous testing of Motors, Localization and Motion Planning Subsystems on Test Fixtures
-- Implement Unit tests and rostests for Behavior Planning and Localization Systems
-- Develop Python packages for ROS, integrating custom diagnostics solutions
-- Build AWS Grafana Dashboards for monitoring metrics and AWS Lambda functions to log test metrics in AWS Athena tables
-- Conduct thorough code reviews for Python code to maintain high quality and performance
+Currently, I lead software testing initiatives for cutting-edge food automation robots at Miso Robotics:
+• Architected and built an object-oriented test framework from scratch using C++ and Python, implementing modular design patterns for
+scalable configuration management across robot subsystem assemblies and diverse hardware permutations.
+• Designed and developed an enterprise-grade test runner with object-oriented architecture, featuring React/JavaScript frontend and
+RESTful Flask API backend that orchestrates test execution in ROS Docker containers, with AWS CloudWatch integration for data
+logging, Grafana dashboards for metrics visualization, and Slack API for automated notifications.
+• Implemented a comprehensive unit testing framework with 95% code coverage using Google Test and pytest, establishing CI/CD
+pipelines with automated test discovery and parallel execution for rapid feedback cycles.
+• Built production-grade Software-in-Loop (SIL) and Hardware-in-Loop (HIL) testing systems with embedded Python integration, for
+lifecycle testing.
+• Developed full-stack UI test automation suite covering 90% of HMI functionality using Playwright and TypeScript, implementing page
+Object Model Design Patterns for Maintainable Test Architectures.
+• Designed and implemented functional, safety, and performance test strategies for continuous deployment across kitchen robotics
+platforms using C++ and Python codebases.
+• Created comprehensive fault injection libraries in C++ and Python to simulate sensor/actuator faults, validating system failover
+behavior across diverse configuration permutations.
+• Implemented CI/CD test pipelines with Jenkins and Docker, reducing firmware regression issues by 75% through automated
+configuration verification and scalable testing infrastructure.
 
 ### 🔧 Tech Stack
 
